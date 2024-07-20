@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useTheme } from "@mui/material/styles";
-import CompanyLogo from "../../assets/Black & White Minimalist Aesthetic Initials Font Logo.png";
+import CompanyLogo from "../../assets/logo.png";
 import ScrollToTopButton from "../Button-Scroll";
 import WhatsAppLink from "../Contact-Link";
 
