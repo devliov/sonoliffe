@@ -63,7 +63,7 @@ const Header = () => {
         <Toolbar>
           <TitleBox>
             <a
-              href="/"
+              href="https://devliov.github.io/sonoliffe/"
               target="_self"
               style={{
                 textDecoration: "none",
