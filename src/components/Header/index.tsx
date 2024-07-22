@@ -59,6 +59,16 @@ const Header = () => {
 
   return (
     <HeaderContainer position="static">
+      <Typography
+        variant="body1"
+        style={{
+          textAlign: "center",
+          color: `${theme.palette.warning.main}`,
+          fontSize: "10px",
+        }}
+      >
+        Não recomendado para quem usa marcapasso ou faz hemodiálise.
+      </Typography>
       <Container>
         <Toolbar>
           <TitleBox>
