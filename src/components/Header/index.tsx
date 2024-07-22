@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useTheme } from "@mui/material/styles";
-import CompanyLogo from "../../assets/logo.png";
+import CompanyLogo from "../../assets/logo-sonoliffe.png";
 import ScrollToTopButton from "../Button-Scroll";
 import WhatsAppLink from "../Contact-Link";
 
@@ -35,7 +35,7 @@ const TitleBox = styled(Box)(({ theme }) => ({
 
 const HiddenTypography = styled(Typography)(({ theme }) => ({
   textDecoration: "none",
-  color: "#ADD8E6",
+  color: `${theme.palette.primary.main}`,
   fontSize: "30px",
   fontWeight: "bold",
   [theme.breakpoints.down("md")]: {

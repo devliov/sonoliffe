@@ -7,7 +7,7 @@ const palette: PaletteOptions = {
     disabled: "#ACB4B5",
   },
   primary: {
-    main: "#ADD8E6",
+    main: "#19B7Eb",
     dark: "#004369",
     light: "#B4CCE0",
     contrastText: "#FFFFFF",

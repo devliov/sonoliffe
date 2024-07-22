@@ -62,7 +62,7 @@ const SellerContainer = styled(Avatar)(({ theme }) => ({
 const SellerAvatar = styled(Avatar)(({ theme }) => ({
   width: "150px",
   height: "150px",
-  border: `2px solid ${theme.palette.primary.main}`,
+  border: `2px solid ${theme.palette.primary.light}`,
 }));
 
 const Slogan = styled(Typography)(({ theme }) => ({
