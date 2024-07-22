@@ -102,7 +102,10 @@ const AboutUs = () => {
         <SellerContainer>
           <SellerAvatar src={SellerPhoto} alt="Seller Photo" />
           <Box>
-            <Typography variant="body1" style={{ fontWeight: "bold" }}>
+            <Typography
+              variant="body1"
+              style={{ fontWeight: "bold", fontSize: "13px" }}
+            >
               Elizeu Oliver
             </Typography>
             <Typography
@@ -110,7 +113,7 @@ const AboutUs = () => {
               style={{
                 fontWeight: "bold",
                 color: `${theme.palette.primary.dark}`,
-                fontSize: "12px",
+                fontSize: "10px",
               }}
             >
               Representante
