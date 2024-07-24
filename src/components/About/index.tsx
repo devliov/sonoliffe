@@ -64,7 +64,7 @@ const AboutUs = () => {
   return (
     <Container id="sobre">
       <AboutContainer>
-        <Slogan variant="h1" style={{ fontSize: "2rem" }}>
+        <Slogan variant="h1" style={{ fontSize: "2rem", fontStyle: "normal" }}>
           Colchões Magnéticos: "Terapia e Tecnologia"
         </Slogan>
         <ImageGalleryComponent />
