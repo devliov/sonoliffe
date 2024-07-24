@@ -23,7 +23,7 @@ const LinkContainer = styled(Box)(({ theme }) => ({
   backgroundColor: theme.palette.success.light,
   boxShadow: theme.shadows[1],
   textDecoration: "none",
-  bottom: theme.spacing(10),
+  bottom: theme.spacing(5),
   right: theme.spacing(2),
   animation: `${growShrink} 1.5s ease-in infinite`,
   "&:hover": {
