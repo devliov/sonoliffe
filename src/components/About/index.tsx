@@ -102,13 +102,7 @@ const AboutUs = () => {
             </Typography>
           </Box>
         </SellerContainer>
-        <Box
-          display="flex"
-          flexDirection="column"
-          gap={2}
-          alignItems="center"
-          width="50%"
-        >
+        <Box display="flex" flexDirection="column" gap={2} alignItems="center">
           <IlustrativePhoto src={Bed1} alt="Cama de casal" />
           <Slogan variant="body1">
             "Uma boa noite de sono é o melhor investimento."
@@ -119,7 +113,6 @@ const AboutUs = () => {
           flexDirection="column"
           gap={2}
           alignItems="flex-start"
-          width="50%"
         >
           <IlustrativePhoto src={Bed4} alt="Cama de casal" />
           <Slogan variant="body1">
@@ -131,20 +124,13 @@ const AboutUs = () => {
           flexDirection="column"
           gap={2}
           alignItems="flex-end"
-          width="50%"
         >
           <IlustrativePhoto src={Bed3} alt="Cama de casal" />
           <Slogan variant="body1">
             "Dormir bem é o primeiro passo para viver melhor."
           </Slogan>
         </Box>
-        <Box
-          display="flex"
-          flexDirection="column"
-          gap={2}
-          alignItems="center"
-          width="50%"
-        >
+        <Box display="flex" flexDirection="column" gap={2} alignItems="center">
           <IlustrativePhoto src={Bed2} alt="Cama de casal" />
           <Slogan variant="body1">
             "Desvalorizar o sono é ignorar seu próprio bem-estar."
