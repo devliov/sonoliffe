@@ -50,10 +50,13 @@ const Benefits: React.FC = () => {
           margin: "20px",
         }}
       >
-        Principais benefícios dos nossos produtos:
+        Principais benefícios dos nossos produtos
       </Typography>
       <BenefitsContainer>
-        <Slogan variant="h6">
+        <Slogan
+          variant="h6"
+          style={{ maxWidth: "100%", margin: "20px auto", fontSize: "20px" }}
+        >
           Melhora a circulação sanguínea, produzindo uma melhor qualidade física
           e química do sangue, aumentando a resistência física
         </Slogan>
