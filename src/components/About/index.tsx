@@ -74,8 +74,9 @@ const AboutUs = () => {
           marginTop={2}
           style={{ color: theme.palette.primary.dark }}
         >
-          Na SonoLiffe nossa missão é proporcionar uma noite de sono tranquila e
-          revigorante.
+          Na{" "}
+          <span style={{ color: theme.palette.primary.main }}>SonoLiffe</span>{" "}
+          nossa missão é proporcionar uma noite de sono tranquila e revigorante.
         </Typography>
         <Slogan variant="h6" style={{ margin: "auto" }}>
           8 anos de mercado.
