@@ -106,7 +106,8 @@ const AboutUs = () => {
           display="flex"
           flexDirection="column"
           gap={2}
-          alignItems="flex-end"
+          alignItems="center"
+          width="50%"
         >
           <IlustrativePhoto src={Bed1} alt="Cama de casal" />
           <Slogan variant="body1">
@@ -118,6 +119,7 @@ const AboutUs = () => {
           flexDirection="column"
           gap={2}
           alignItems="flex-start"
+          width="50%"
         >
           <IlustrativePhoto src={Bed4} alt="Cama de casal" />
           <Slogan variant="body1">
@@ -129,6 +131,7 @@ const AboutUs = () => {
           flexDirection="column"
           gap={2}
           alignItems="flex-end"
+          width="50%"
         >
           <IlustrativePhoto src={Bed3} alt="Cama de casal" />
           <Slogan variant="body1">
@@ -139,7 +142,8 @@ const AboutUs = () => {
           display="flex"
           flexDirection="column"
           gap={2}
-          alignItems="flex-start"
+          alignItems="center"
+          width="50%"
         >
           <IlustrativePhoto src={Bed2} alt="Cama de casal" />
           <Slogan variant="body1">
