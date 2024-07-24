@@ -39,8 +39,8 @@ const IlustrativePhoto = styled("img")(({ theme }) => ({
 const SellerContainer = styled(Box)({
   display: "flex",
   borderRadius: theme.shape.borderRadius,
-  padding: theme.spacing(),
-  gap: theme.spacing(2),
+  padding: theme.spacing(1),
+  gap: theme.spacing(1),
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
