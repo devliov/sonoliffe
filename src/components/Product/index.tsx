@@ -45,6 +45,7 @@ const CenterImage = styled(Image)({
   width: "50%",
   opacity: 1,
   zIndex: 3,
+  cursor: "pointer",
 });
 
 const SideImage = styled(Image)({
