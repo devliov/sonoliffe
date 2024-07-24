@@ -83,32 +83,34 @@ const AboutUs = () => {
           <span style={{ color: theme.palette.primary.main }}>SonoLiffe</span>{" "}
           nossa missão é proporcionar uma noite de sono tranquila e revigorante.
         </Typography>
-        <SellerAvatar src={Anos} alt="Credibilidade de 8 anos de mercado" />
-        <SellerContainer>
-          <SellerAvatar src={SellerPhoto} alt="Seller Photo" />
-          <Box>
-            <Typography
-              variant="body1"
-              style={{
-                fontWeight: "bold",
-                fontSize: "16px",
-                color: theme.palette.primary.dark,
-              }}
-            >
-              Elizeu Oliver
-            </Typography>
-            <Typography
-              variant="body1"
-              style={{
-                fontWeight: "bold",
-                color: `${theme.palette.primary.main}`,
-                fontSize: "12px",
-              }}
-            >
-              Especialista
-            </Typography>
-          </Box>
-        </SellerContainer>
+        <Box display="flex" gap="50px" justifyContent="center" flexWrap="wrap">
+          <SellerAvatar src={Anos} alt="Credibilidade de 8 anos de mercado" />
+          <SellerContainer>
+            <SellerAvatar src={SellerPhoto} alt="Seller Photo" />
+            <Box>
+              <Typography
+                variant="body1"
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "16px",
+                  color: theme.palette.primary.dark,
+                }}
+              >
+                Elizeu Oliver
+              </Typography>
+              <Typography
+                variant="body1"
+                style={{
+                  fontWeight: "bold",
+                  color: `${theme.palette.primary.main}`,
+                  fontSize: "12px",
+                }}
+              >
+                Especialista
+              </Typography>
+            </Box>
+          </SellerContainer>
+        </Box>
         <Box
           display="flex"
           flexDirection="row"
