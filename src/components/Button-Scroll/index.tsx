@@ -6,7 +6,7 @@ import theme from "../../theme";
 
 const ScrollButton = styled(Fab)(({ theme }) => ({
   position: "fixed",
-  bottom: theme.spacing(10),
+  bottom: theme.spacing(5),
   left: theme.spacing(2),
 }));
 
