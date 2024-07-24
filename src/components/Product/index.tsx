@@ -91,7 +91,7 @@ const Caption = styled(Typography)({
   color: "white",
   backgroundColor: "rgba(249, 247, 247, 0.215)",
   padding: theme.spacing(0.8),
-  fontSize: "20px",
+  fontSize: "25px",
   fontWeight: "bold",
   textAlign: "center",
   borderRadius: "5px",

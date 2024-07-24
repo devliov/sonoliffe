@@ -102,7 +102,14 @@ const AboutUs = () => {
             </Typography>
           </Box>
         </SellerContainer>
-        <Box display="flex" flexDirection="column" gap={2} alignItems="center">
+        <Box
+          display="flex"
+          flexDirection="row"
+          flexWrap="wrap"
+          gap={2}
+          alignItems="center"
+          justifyContent="center"
+        >
           <IlustrativePhoto src={Bed1} alt="Cama de casal" />
           <Slogan variant="body1">
             "Uma boa noite de sono é o melhor investimento."
@@ -110,31 +117,42 @@ const AboutUs = () => {
         </Box>
         <Box
           display="flex"
-          flexDirection="column"
+          flexDirection="row"
+          flexWrap="wrap-reverse"
           gap={2}
-          alignItems="flex-start"
+          alignItems="center"
+          justifyContent="center"
         >
-          <IlustrativePhoto src={Bed4} alt="Cama de casal" />
           <Slogan variant="body1">
             "Durma bem hoje, acorde disposto para desfrutar a vida."
           </Slogan>
+          <IlustrativePhoto src={Bed4} alt="Cama de casal" />
         </Box>
         <Box
           display="flex"
-          flexDirection="column"
+          flexDirection="row"
+          flexWrap="wrap"
           gap={2}
-          alignItems="flex-end"
+          alignItems="center"
+          justifyContent="center"
         >
           <IlustrativePhoto src={Bed3} alt="Cama de casal" />
           <Slogan variant="body1">
             "Dormir bem é o primeiro passo para viver melhor."
           </Slogan>
         </Box>
-        <Box display="flex" flexDirection="column" gap={2} alignItems="center">
-          <IlustrativePhoto src={Bed2} alt="Cama de casal" />
+        <Box
+          display="flex"
+          flexDirection="row"
+          flexWrap="wrap-reverse"
+          gap={2}
+          alignItems="center"
+          justifyContent="center"
+        >
           <Slogan variant="body1">
             "Desvalorizar o sono é ignorar seu próprio bem-estar."
           </Slogan>
+          <IlustrativePhoto src={Bed2} alt="Cama de casal" />
         </Box>
         <Slogan
           variant="body1"
