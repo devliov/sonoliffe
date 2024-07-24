@@ -1,9 +1,10 @@
-import { Box, Container, Typography, Avatar, styled } from "@mui/material";
+import { Box, Container, Typography, styled } from "@mui/material";
 import SellerPhoto from "../../assets/elizeu-foto.jpg";
 import Bed1 from "../../assets/dormir-mal.jpg";
 import Bed2 from "../../assets/dormindo-bem.jpg";
 import Bed3 from "../../assets/homem-dormindo.webp";
 import Bed4 from "../../assets/despertar.jpg";
+import Anos from "../../assets/8anos.png";
 import theme from "../../theme";
 import ImageGalleryComponent from "../Product";
 
@@ -35,19 +36,23 @@ const IlustrativePhoto = styled("img")(({ theme }) => ({
   boxShadow: theme.shadows[2],
 }));
 
-const SellerContainer = styled(Avatar)({
+const SellerContainer = styled(Box)({
   display: "flex",
+  borderRadius: theme.shape.borderRadius,
+  padding: theme.spacing(),
+  gap: theme.spacing(2),
+  flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
   width: "250px",
-  height: "250px",
+  height: "auto",
   margin: "auto",
-  backgroundColor: theme.palette.primary.light,
+  backgroundColor: " #f1f2ec",
 });
 
-const SellerAvatar = styled(Avatar)({
-  width: "150px",
-  height: "150px",
+const SellerAvatar = styled("img")({
+  width: "230px",
+  height: "230px",
 });
 
 const Slogan = styled(Typography)(({ theme }) => ({
@@ -78,15 +83,17 @@ const AboutUs = () => {
           <span style={{ color: theme.palette.primary.main }}>SonoLiffe</span>{" "}
           nossa missão é proporcionar uma noite de sono tranquila e revigorante.
         </Typography>
-        <Slogan variant="h6" style={{ margin: "auto" }}>
-          8 anos de mercado.
-        </Slogan>
+        <SellerAvatar src={Anos} alt="Credibilidade de 8 anos de mercado" />
         <SellerContainer>
           <SellerAvatar src={SellerPhoto} alt="Seller Photo" />
           <Box>
             <Typography
               variant="body1"
-              style={{ fontWeight: "bold", fontSize: "13px", color: "#FFFFFF" }}
+              style={{
+                fontWeight: "bold",
+                fontSize: "16px",
+                color: theme.palette.primary.dark,
+              }}
             >
               Elizeu Oliver
             </Typography>
@@ -94,8 +101,8 @@ const AboutUs = () => {
               variant="body1"
               style={{
                 fontWeight: "bold",
-                color: `${theme.palette.primary.dark}`,
-                fontSize: "10px",
+                color: `${theme.palette.primary.main}`,
+                fontSize: "12px",
               }}
             >
               Especialista
